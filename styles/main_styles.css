@@ -832,16 +832,17 @@ section
 {
 	width: 60%;
 }
-.main_slider_content h6
-{
+.main_slider_content h6 {
 	font-weight: 500;
 	text-transform: uppercase;
 	margin-bottom: 29px;
+	color: #ffffff;
 }
-.main_slider_content h1
-{
+.main_slider_content h1 {
 	font-weight: 400;
 	line-height: 1;
+	color: #ffffff;
+	text-shadow: 3px 3px #000000;
 }
 .red_button
 {
@@ -1008,7 +1009,7 @@ section
 .product-item
 {
 	width: 20%;
-	height: 380px;
+	height: 420px;
 	cursor: pointer;
 }
 .product-item::after
@@ -1034,19 +1035,20 @@ section
 	box-shadow: 0 25px 29px rgba(63, 78, 100, 0.15);
 	border: solid 2px rgba(235,235,235,1);
 }
-.product
-{
+.product {
 	width: 100%;
-	height: 340px;
+	height: 260px;
 	border-right: solid 1px #e9e9e9;
 }
 .product_image
 {
 	width: 100%;
+	height: 300px;
 }
 .product_image img
 {
 	width: 100%;
+	height: 100%;
 }
 .product_info
 {
@@ -1212,11 +1214,10 @@ section
 6. Deal of the week
 *********************************/
 
-.deal_ofthe_week
-{
+.deal_ofthe_week {
 	width: 100%;
 	margin-top: 41px;
-	background: #f2f2f2;
+	background: #D6D6D6;
 }
 .deal_ofthe_week_img
 {
@@ -1300,11 +1301,11 @@ section
 /*********************************
 7. Best Sellers
 *********************************/
-
-.product_slider_container
-{
-	width: 100%;
-	height: 340px;
+.best_sellers {
+	padding-bottom: 50px;
+}
+.product_slider_container {
+	height: 100%;
 	margin-top: 73px;
 }
 .product_slider_container::after
@@ -1323,9 +1324,8 @@ section
 {
 	overflow: visible !important;
 }
-.product_slider_item .product-item
-{
-	height: 340px;
+.product_slider_item .product-item {
+    height: 300px;
 }
 .product_slider_item
 {
